@@ -1,0 +1,412 @@
+.headerPedido {
+    width: 100%;
+    height: 138px;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoPessoaish1 {
+    display: flex;
+    margin: 45px 0px 17px 137px;
+}
+
+.dNumeroUm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555555;
+}
+
+.numeroUm {
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0
+}
+
+.infoUm {
+    color: #555555;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.formPersonalData {
+    background-color: #E2E1CC;
+    width: 25%;
+    margin-left: 137px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formPersonalData label {
+    color: #777777;
+    font-family: 'Inter';
+}
+
+.formPersonalData input {
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #111111;
+    outline: none; /* Remove o outline padrão do navegador */
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.infoEntregash1 {
+    display: flex;
+    margin: 45px 0px 17px 137px;
+}
+
+.dNumeroDois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555555;
+}
+
+.numeroDois {
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0
+}
+
+.infoDois {
+    color: #555555;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.formAddressData {
+    background-color: #E2E1CC;
+    width: 25%;
+    margin-left: 137px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formAddressData label {
+    color: #777777;
+    font-family: 'Inter';
+}
+
+.formAddressData input {
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+} 
+
+.formAddressData select {
+    color: #777777;
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+} 
+
+.infoPessoaish1 {
+    display: flex;
+    margin: 45px 0px 17px 137px;
+}
+
+.dNumeroUm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555555;
+}
+
+.numeroUm {
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0
+}
+
+.paymentMethodsh1 {
+    display: flex;
+    margin: 45px 0px 17px 137px;
+}
+
+.dNumberThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555555;
+}
+
+.numberThree {
+    color: white;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0
+}
+
+.paymentTitle {
+    color: #555555;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.paymentButtons {
+    background-color: #E2E1CC;
+    width: 25%;
+    margin-left: 137px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.paymentButtons label {
+    color: #777777;
+    font-family: 'Inter';
+}
+
+.paymentButtons input {
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.pix, .debit, .credit, .paymentSlip {
+    display: flex;
+    justify-content: center;
+}
+
+.pix button, .debit button, .credit button, .paymentSlip button {
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 20px;
+    color: #514E4E;
+
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+
+    background-color: #F7F7EF;
+}
+
+.pix button:hover, .debit button:hover , .credit button:hover , .paymentSlip button:hover {
+    background-color: #777777;
+    color: #FFFFFF;
+}
+
+.pixPercent {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 4px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+body {
+    background-color: #F7F6EF;
+    width: 100%;
+    margin: 0;
+}
+
+.Logo {
+    width: 190px;
+    height: 47.93px;
+    margin-top: 46px;
+    margin-left: 50px;
+}
+
+.OpcoesHeader {
+    margin-top: 65px;
+    gap: 125px;
+    padding-left: 390px;
+    font-family: 'Poppins', sans-serif;
+    color: #514E4E;
+    font-size: 18px;
+}
+
+.OpcoesHeader a:hover {
+    color:#C4C298;
+}
+
+.SimbolosHeader {
+    gap: 70px;
+    padding-left: 310px;
+}
+
+.Favoritos {
+    width: 47px;
+    height: 47px;
+    margin-top: 54px;
+}
+
+.Usuario {
+    width: 45px;
+    height: 45px;
+    margin-top: 56px;
+}
+
+.Carrinho {
+    width: 47px;
+    height: 47px;
+    margin-top: 55px;
+}
+
+.Carousel {
+    width: 100%;
+    height: 200px;
+}
+
+.onda {
+    width: 100%;
+    height: auto;
+    background-color: #F7F6EF;
+}
+
+footer {
+    background-color: #C4C298;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.Direitos {
+    color: #E7E7E7;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 41px;
+    margin-bottom: 0px;
+}
+
+.ConteudoFooter {
+    gap: 30px;
+    justify-content: center;
+}
+
+.OpcoesFooter {
+    gap: 100px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    padding-right: 30px;
+    
+}
+
+.vertical-line {
+    width: 1px;
+    height: 22px;
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+.SimbolosFooter {
+    padding-left: 32px;
+    padding-right: 50px;
+}
+
+.WhatsApp {
+    width: 21px;
+    height: 21px;
+    margin-left: 45px;
+}
+
+.Instagram {
+    width: 20px;
+    height: 20px;
+    margin-left: 45px;
+}
+
+.Tiktok {
+    width: 20px;
+    height: 22.42px;
+    margin-left: 45px;
+}
+
+.Email {
+    width: 20px;
+    height: 18.38px;
+    margin-right: 16px;
+}
+
+.Gmail {
+    padding-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.LogoRedonda {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 55px;
+    
+}
+
+/* AQUI PODE ALTERAR O "height" DO MAIN PARA COMPORTAR O CONTEUDO DA PÁGINA
+   429px é só o tamanho da tela no navegador FireFox, e 456px é o do Chrome 
+  (lembrando que isso é pra tela do computador, não sei se muda no de vocês) */
+main {
+    background-color: #F7F6EF;
+    width: 100%;
+    height: 100%;
+}
