@@ -58,7 +58,7 @@
     <header class="d-flex hide" >
 
         <!-- Logo Principal -->
-        <a href="/HOME/index.html"><img class="Logo" src="/imagens/Logo.svg" alt=""></a>
+        <a href="/HOME/index.html"><img class="Logo" src="/Imagens/Logo.svg" alt=""></a>
         <div class="d-flex OpcoesHeader">
             <a href="/HOME/index.html">Home</a>
             <a href="/CATÁLOGO/Catalogo.html">Catálogo</a>
@@ -66,9 +66,9 @@
             <a href="/ERRO.html">Blog</a>
         </div>
         <div class="d-flex SimbolosHeader">
-            <a href="/ERRO.html"><img class="Favoritos" id="favoritos-icon" src="/imagens/Favoritos.svg" alt=""></a>
-            <a href="/REGISTRO/CadastroLogin.html"><img class="Usuario" id="usuario-icon" src="/imagens/Usuario.svg" alt=""></a>
-            <a href="/CARRINHO/Carrinho.html"><img class="Carrinho" id="carrinho-icon" src="/imagens/Carrinho.svg" alt=""></a>
+            <a href="/ERRO.html"><img class="Favoritos" id="favoritos-icon" src="/Imagens/Favoritos.svg" alt=""></a>
+            <a href="/REGISTRO/CadastroLogin.html"><img class="Usuario" id="usuario-icon" src="/Imagens/Usuario.svg" alt=""></a>
+            <a href="Carrinho.html"><img class="Carrinho" id="carrinho-icon" src="/Imagens/Carrinho.svg" alt=""></a>
         </div>
 
     </header>
@@ -104,11 +104,11 @@
             <div class="vertical-line"></div>
             <!-- Links das redes -->
             <div class="d-flex SimbolosFooter">
-                <a><img class="Email" src="/imagens/Email.svg" alt=""></a>
+                <a><img class="Email" src="/Imagens/Email.svg" alt=""></a>
                 <a class="Gmail">Luarce@gmail.com</a>
-                <a href="https://www.instagram.com/luarcevelas/" target="_blank" rel="noopener noreferrer"><img class="Instagram" src="/imagens/Instagram.svg" alt=""></a>
-                <a href="https://www.tiktok.com/@luarcevelas" target="_blank" rel="noopener noreferrer"><img class="Tiktok" src="/imagens/Tiktok.svg" alt=""></a>
-                <a href="/ERRO.html" target="_blank" rel="noopener noreferrer"><img class="WhatsApp" src="/imagens/WhatsApp.svg" alt=""></a>
+                <a href="https://www.instagram.com/luarcevelas/" target="_blank" rel="noopener noreferrer"><img class="Instagram" src="/Imagens/Instagram.svg" alt=""></a>
+                <a href="https://www.tiktok.com/@luarcevelas" target="_blank" rel="noopener noreferrer"><img class="Tiktok" src="/Imagens/Tiktok.svg" alt=""></a>
+                <a href="https://api.whatsapp.com/send/?phone=554792072003&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"><img class="WhatsApp" src="/Imagens/WhatsApp.svg" alt=""></a>
             </div>
             <div>
                 <!-- Logo do footer -->
@@ -130,12 +130,13 @@
         }
     
         // Preload das imagens alternativas
+        
         preloadImages([
-            '/imagens/Favoritos2.svg',
-            '/imagens/Usuario2.svg',
-            '/imagens/Carrinho3.svg',
+            '/Imagens/Favoritos2.svg',
+            '/Imagens/Usuario2.svg',
+            '/Imagens/Carrinho3.svg',
         ]);
-    
+
         // Funções para alterar imagem quando o cursor ficar sob a imagem
         document.getElementById('favoritos-icon').addEventListener('mouseover', function() {
             this.src = '/Imagens/Favoritos2.svg';
